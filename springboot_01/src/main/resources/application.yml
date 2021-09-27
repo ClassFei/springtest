@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: "trace"
+  file:
+    #name: D:/MY.log
+    path: d:/
+  logback:
+    rollingpolicy:
+      max-file-size:5KB
+      max-history:5
